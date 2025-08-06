@@ -1,0 +1,141 @@
+.blog-section {
+  padding: 5rem 0;
+  background: white;
+}
+
+.blog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.blog-content {
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.blog-image-wrapper {
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.blog-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-testimonial {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 70%;
+  max-width: 320px;
+  background: white;
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-rating {
+  color: #ffd700;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.testimonial-quote {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+
+.testimonial-details {
+  font-size: 0.75rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.blog-articles {
+  flex: 1;
+}
+
+.blog-label {
+  color: #666;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.blog-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1a1a1a;
+  margin-bottom: 2.5rem;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.blog-item {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.blog-item:last-child {
+  border-bottom: none;
+}
+
+.blog-date {
+  font-size: 0.85rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.blog-post-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.blog-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #333;
+  border: 1px solid #333;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.blog-link:hover {
+  background: #333;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .blog-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .blog-title {
+    font-size: 2rem;
+  }
+  
+  .blog-testimonial {
+    padding: 1rem;
+  }
+}
