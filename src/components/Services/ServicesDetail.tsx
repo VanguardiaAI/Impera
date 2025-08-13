@@ -108,7 +108,7 @@ const ServicesDetail = () => {
           <div className="services-detail-image">
             <img src="/Rectangle_2.png" alt="Servicio al cliente" />
             <div className="testimonial-card">
-              <div className="testimonial-rating">★★★★★</div>
+              <div className="testimonial-rating"><img src="/stars.png" alt="5 estrellas" style={{ height: '14px', width: 'auto', display: 'inline-block' }} /></div>
               <p className="testimonial-text">
                 "IMPERIA logró en tiempo record la instalación"
               </p>

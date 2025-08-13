@@ -22,7 +22,7 @@ const About = () => {
                   <img src="https://i.pravatar.cc/60?img=6" alt="" />
                 </div>
                 <div className="success-text">
-                  <div className="stars">★★★★★</div>
+                  <div className="stars"><img src="/stars.png" alt="5 estrellas" style={{ height: '12px', width: 'auto', display: 'inline-block' }} /></div>
                   <div className="count">+200</div>
                   <div className="label">Clientes Satisfechos</div>
                 </div>

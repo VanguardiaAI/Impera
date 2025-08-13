@@ -26,7 +26,7 @@ const Blog = () => {
           <div className="blog-image-wrapper">
             <img src="/Group_49.jpg" alt="Equipo trabajando" />
             <div className="blog-testimonial">
-              <div className="testimonial-rating">★★★★★</div>
+              <div className="testimonial-rating"><img src="/stars.png" alt="5 estrellas" style={{ height: '14px', width: 'auto', display: 'inline-block' }} /></div>
               <p className="testimonial-quote">
                 "Con IMPERIA Los resultados son fantásticos"
               </p>
