@@ -1,10 +1,8 @@
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import './Header.css'
 
 const Header = () => {
-  const location = useLocation()
-  const isHomePage = location.pathname === '/'
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -36,19 +34,9 @@ const Header = () => {
         </button>
 
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
-          {isHomePage ? (
-            <>
-              <a href="#nosotros" className="nav-link" onClick={closeMenu}>Sobre nosotros</a>
-              <a href="#servicios" className="nav-link" onClick={closeMenu}>Servicios</a>
-              <a href="#blog" className="nav-link" onClick={closeMenu}>Blog</a>
-            </>
-          ) : (
-            <>
-              <Link to="/sobre-nosotros" className="nav-link" onClick={closeMenu}>Sobre nosotros</Link>
-              <Link to="/#servicios" className="nav-link" onClick={closeMenu}>Servicios</Link>
-              <Link to="/#blog" className="nav-link" onClick={closeMenu}>Blog</Link>
-            </>
-          )}
+          <Link to="/sobre-nosotros" className="nav-link" onClick={closeMenu}>Sobre nosotros</Link>
+          <Link to="/servicios" className="nav-link" onClick={closeMenu}>Servicios</Link>
+          <a href="#blog" className="nav-link" onClick={closeMenu}>Blog</a>
           <button className="cta-button">
             <span>Contáctanos</span>
             <div className="button-icon">→</div>
