@@ -5,19 +5,19 @@
 
 /* Asegurar que el contenido no se superponga con el header absoluto */
 body {
-  padding-top: 70px; /* Espacio para el header */
+  padding-top: 60px; /* Espacio para el header más compacto */
 }
 
 /* Ajuste para pantallas móviles */
 @media (max-width: 768px) {
   body {
-    padding-top: 60px;
+    padding-top: 50px;
   }
 }
 
 @media (max-width: 480px) {
   body {
-    padding-top: 55px;
+    padding-top: 45px;
   }
 }
 
