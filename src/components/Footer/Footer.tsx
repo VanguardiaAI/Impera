@@ -1,4 +1,5 @@
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -12,10 +13,10 @@ const Footer = () => {
                 Si Buscas Una Empresa Que Entienda Tus Necesidades, Que Trabaje Con<br />
                 Profesionalismo Y Que Realmente Se Involucre En Tu Crecimiento, Hablemos.
               </p>
-              <button className="footer-cta-button">
+              <Link to="/contacto" className="footer-cta-button">
                 <span>Contáctanos</span>
                 <div className="button-icon">→</div>
-              </button>
+              </Link>
             </div>
             <img src="/Group.png" alt="" className="footer-cta-decoration" />
           </div>
@@ -32,14 +33,14 @@ const Footer = () => {
               
               <div className="footer-right">
                 <nav className="footer-nav">
-                  <a href="#" className="footer-link">Sobre nosotros</a>
-                  <a href="#" className="footer-link">Servicios</a>
-                  <a href="#" className="footer-link">Blog</a>
+                  <Link to="/sobre-nosotros" className="footer-link">Sobre nosotros</Link>
+                  <Link to="/servicios" className="footer-link">Servicios</Link>
+                  <a href="#blog" className="footer-link">Blog</a>
                 </nav>
-                <button className="footer-contact-button">
+                <Link to="/contacto" className="footer-contact-button">
                   <span>Contáctanos</span>
                   <div className="button-icon">→</div>
-                </button>
+                </Link>
               </div>
             </div>
           </div>

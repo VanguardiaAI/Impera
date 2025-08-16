@@ -62,6 +62,7 @@
   display: inline-flex;
   align-items: center;
   gap: 1rem;
+  text-decoration: none;
 }
 
 .footer-cta-button .button-icon {
@@ -135,6 +136,7 @@
   color: rgba(255, 255, 255, 0.9);
   font-size: 0.95rem;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 .footer-link:hover {
@@ -154,6 +156,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.8rem;
+  text-decoration: none;
 }
 
 .footer-contact-button .button-icon {
