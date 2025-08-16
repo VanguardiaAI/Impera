@@ -1,5 +1,6 @@
 import './ServicesDetail.css'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 interface Service {
   id: number
@@ -98,7 +99,7 @@ const ServicesDetail = () => {
                   {service.isOpen && (
                     <div style={{ padding: '1rem 0', background: 'white' }}>
                       <p style={{ fontSize: '0.9rem', color: '#666', lineHeight: '1.6', marginBottom: '1rem' }}>{service.description}</p>
-                      <button className="service-cta">VER SERVICIO →</button>
+                      <Link to="/detalles-de-servicio" className="service-cta">VER SERVICIO →</Link>
                     </div>
                   )}
                 </div>

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import './Servicios.css'
@@ -163,9 +164,9 @@ const Servicios = () => {
                     <div className="expandable-content">
                       <p>{item.description}</p>
                       {item.hasButton && (
-                        <button className="view-service-btn">
+                        <Link to="/detalles-de-servicio" className="view-service-btn">
                           VER SERVICIO <span>→</span>
-                        </button>
+                        </Link>
                       )}
                     </div>
                   )}
