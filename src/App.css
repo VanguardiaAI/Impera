@@ -3,6 +3,24 @@
   background-color: #ffffff;
 }
 
+/* Asegurar que el contenido no se superponga con el header absoluto */
+body {
+  padding-top: 70px; /* Espacio para el header */
+}
+
+/* Ajuste para pantallas móviles */
+@media (max-width: 768px) {
+  body {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 55px;
+  }
+}
+
 /* Scrollbar personalizada */
 ::-webkit-scrollbar {
   width: 10px;

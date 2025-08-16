@@ -12,14 +12,14 @@
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 0.75rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo img {
-  height: 40px;
+  height: 35px;
   width: auto;
   display: block;
 }
@@ -131,11 +131,11 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .header-container {
-    padding: 1rem;
+    padding: 0.75rem;
   }
 
   .logo img {
-    height: 30px;
+    height: 28px;
   }
 
   .hamburger {
@@ -179,11 +179,11 @@
 
 @media (max-width: 480px) {
   .header-container {
-    padding: 0.8rem 1rem;
+    padding: 0.6rem 1rem;
   }
 
   .logo img {
-    height: 25px;
+    height: 22px;
   }
 
   .nav {
