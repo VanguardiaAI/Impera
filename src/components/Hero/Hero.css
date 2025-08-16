@@ -66,6 +66,7 @@
   gap: 1rem;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .hero-cta .button-icon {

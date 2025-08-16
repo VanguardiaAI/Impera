@@ -1,4 +1,5 @@
 import './Hero.css'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   const services = [
@@ -43,14 +44,14 @@ const Hero = () => {
           Y Software Para Empresas Que Buscan Crecer Con Confianza, Eficiencia Y Acompañamiento Real.
         </p>
         <div className="hero-buttons">
-          <button className="hero-cta primary">
+          <Link to="/contacto" className="hero-cta primary">
             <span>Contáctanos</span>
             <div className="button-icon">→</div>
-          </button>
-          <button className="hero-cta secondary">
+          </Link>
+          <Link to="/servicios" className="hero-cta secondary">
             <span>Servicios</span>
             <div className="button-icon">→</div>
-          </button>
+          </Link>
         </div>
         
         <div className="hero-services">
