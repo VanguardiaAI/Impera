@@ -37,7 +37,7 @@ const Header = () => {
           <Link to="/sobre-nosotros" className="nav-link" onClick={closeMenu}>Sobre nosotros</Link>
           <Link to="/servicios" className="nav-link" onClick={closeMenu}>Servicios</Link>
           <a href="#blog" className="nav-link" onClick={closeMenu}>Blog</a>
-          <Link to="/contacto" className="cta-button" onClick={closeMenu}>
+          <Link to="/contacto" className="hero-cta primary" onClick={closeMenu}>
             <span>Contáctanos</span>
             <div className="button-icon">→</div>
           </Link>
