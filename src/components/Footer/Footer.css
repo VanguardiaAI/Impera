@@ -10,7 +10,7 @@
 /* Sección CTA flotante */
 .footer-cta-section {
   background: white;
-  padding-bottom: 12rem; /* Más espacio para posicionar el CTA */
+  padding-bottom: 12rem; 
   position: relative;
 }
 

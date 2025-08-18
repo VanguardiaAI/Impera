@@ -36,7 +36,7 @@ const Header = () => {
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <Link to="/sobre-nosotros" className="nav-link" onClick={closeMenu}>Sobre nosotros</Link>
           <Link to="/servicios" className="nav-link" onClick={closeMenu}>Servicios</Link>
-          <a href="#blog" className="nav-link" onClick={closeMenu}>Blog</a>
+          <Link to="/blog" className="nav-link" onClick={closeMenu}>Blog</Link>
           <Link to="/contacto" className="hero-cta primary" onClick={closeMenu}>
             <span>Contáctanos</span>
             <div className="button-icon">→</div>
